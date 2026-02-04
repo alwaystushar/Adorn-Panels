@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Haas Grot Disp 15 XXThin';
+    src: url('HaasGrotDisp-16XXThinItalic.woff2') format('woff2'),
+        url('HaasGrotDisp-16XXThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haas Grot Disp 15 XXThin';
+    src: url('HaasGrotDisp-15XXThin.woff2') format('woff2'),
+        url('HaasGrotDisp-15XXThin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haas Grot Disp 25 XThin';
+    src: url('HaasGrotDisp-26XThinItalic.woff2') format('woff2'),
+        url('HaasGrotDisp-26XThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haas Grot Disp 25 XThin';
+    src: url('HaasGrotDisp-25XThin.woff2') format('woff2'),
+        url('HaasGrotDisp-25XThin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haas Grot Disp 45';
+    src: url('HaasGrotDisp-45Light.woff2') format('woff2'),
+        url('HaasGrotDisp-45Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haas Grot Disp 35';
+    src: url('HaasGrotDisp-36ThinItalic.woff2') format('woff2'),
+        url('HaasGrotDisp-36ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haas Grot Disp 45';
+    src: url('HaasGrotDisp-46LightItalic.woff2') format('woff2'),
+        url('HaasGrotDisp-46LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haas Grot Disp 35';
+    src: url('HaasGrotDisp-35Thin.woff2') format('woff2'),
+        url('HaasGrotDisp-35Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haas Grot Disp 55 Roman';
+    src: url('HaasGrotDisp-55Roman.woff2') format('woff2'),
+        url('HaasGrotDisp-55Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haas Grot Disp 65';
+    src: url('HaasGrotDisp-65Medium.woff2') format('woff2'),
+        url('HaasGrotDisp-65Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haas Grot Disp 95';
+    src: url('HaasGrotDisp-95Black.woff2') format('woff2'),
+        url('HaasGrotDisp-95Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haas Grot Disp 55 Roman';
+    src: url('HaasGrotDisp-56Italic.woff2') format('woff2'),
+        url('HaasGrotDisp-56Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haas Grot Disp 65';
+    src: url('HaasGrotDisp-66MediumItalic.woff2') format('woff2'),
+        url('HaasGrotDisp-66MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haas Grot Disp 75';
+    src: url('HaasGrotDisp-76BoldItalic.woff2') format('woff2'),
+        url('HaasGrotDisp-76BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haas Grot Disp 75';
+    src: url('HaasGrotDisp-75Bold.woff2') format('woff2'),
+        url('HaasGrotDisp-75Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haas Grot Disp 95';
+    src: url('HaasGrotDisp-96BlackItalic.woff2') format('woff2'),
+        url('HaasGrotDisp-96BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+

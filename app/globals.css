@@ -1,0 +1,140 @@
+@import "tailwindcss";
+
+/* Color system */
+:root {
+  --color-black: #231F20;
+  --color-white: #FFFFFF;
+  --color-accent: #E1B691;
+  --color-grey: #F2EFE6;
+  --clr-overlay-bg: var(--color-black);
+  --clr-link: var(--color-white);
+}
+
+/* Global reset / base */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  background-color: var(--color-grey);
+  color: var(--color-black);
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Haas Grot Disp 15 XXThin';
+}
+
+html::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari, Opera */
+}
+
+/* Or use utility class for specific elements */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Desktop-first fluid sizes (1440px base) */
+.h1 {
+  font-size: 4.45vw; /* 64px / 1440 * 100 */
+}
+
+.h2 {
+  font-size: 3.34vw; /* 48px / 1440 * 100 */
+}
+
+.h3{
+  font-size: 2.5vw; /* 32px / 1440 * 100 */
+}
+
+.h4{
+  font-size: 2vw; /* 24px / 1440 * 100 */
+}
+
+
+.b1 {
+  font-size: 1.5vw; /* 18px / 1440 * 100 */
+  line-height: 160%;
+}
+
+.b2 {
+  font-size: 1.39vw; /* 20px / 1440 * 100 */
+}
+
+/* Mobile floor so it doesn’t get too tiny */
+@media (max-width: 768px) {
+  .h1 {
+    font-size: 7vw;    /* ~27–30px on phones */
+  }
+
+  .h2 {
+    font-size: 5.5vw;  /* ~21–24px on phones */
+  }
+
+  .b1 {
+    font-size: 3.9vw;  /* ~14–15px on phones */
+  }
+
+  .b2 {
+    font-size: 4.2vw;  /* ~15–16px on phones */
+  }
+}
+
+/* Add to globals.css */
+.grid-container {
+  @apply grid grid-cols-12 gap-[1.67vw] mx-[1.67vw];
+}
+
+/* Responsive version - smaller gaps on mobile */
+@media (max-width: 768px) {
+  .grid-container {
+    @apply gap-[3vw] mx-[3vw];
+  }
+}
+
+/* Product Cards 3D Flip Animation */
+.product-card-wrapper {
+  perspective: 1500px;
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transform-origin: center bottom;
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.card-back {
+  transform: rotateX(180deg);
+}
+
+/* Hover effect */
+.product-card-wrapper:hover .card-front {
+  transform: translateY(-12px);
+}
+
+.product-card-wrapper:hover .card-inner {
+  transition: transform 0.3s ease;
+}
