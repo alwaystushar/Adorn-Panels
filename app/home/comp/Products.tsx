@@ -72,7 +72,7 @@ const ProductsSection = () => {
   return (
     <div ref={containerRef} className="relative bg-[var(--color-grey)]">
       {/* Scroll Area - Contains everything for this section */}
-      <div className="h-[250vh] relative">
+      <div className="h-[350vh] relative">
         {/* Fixed Container - Only visible during this section */}
         <div 
           className={`${isInView ? 'fixed' : 'absolute'} inset-x-0 top-0 h-screen bg-[var(--color-grey)] flex flex-col justify-center z-10`}
