@@ -1,5 +1,7 @@
 "use client";
 
+// Fixed import statement
+
 import { motion, useScroll, useMotionValueEvent, useTransform } from "framer-motion";
 import ProductCard from "@/app/home/lib/ProductCard";
 import { useRef, useState } from "react";
