@@ -46,7 +46,7 @@ const ExplorePanelsButton = ({
       scale: 1.05,
       backgroundColor: variant === "dark" 
         ? "hsl(28, 50%, 65%)" // Lighter accent on hover for dark
-        : "var(--color-black)", // Black on hover for light
+        : "hsl(28, 50%, 65%)", // Black on hover for light
       duration: 0.3,
       ease: "power2.out",
     }, 0)

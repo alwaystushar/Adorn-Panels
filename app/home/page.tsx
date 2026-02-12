@@ -5,6 +5,9 @@ import ProductsSection from './comp/Products'
 import WhyChooseSection from './comp/WhyChooseSection'
 import GallerySection from './comp/GalleryCard'
 import ProjectsSection from './comp/ProjectsSection'
+import Help from './comp/Help'
+import FAQ from '../components/UI/FAQ'
+import Cta from '../components/UI/Cta'
 
 const Homepage = () => {
   return (
@@ -15,6 +18,9 @@ const Homepage = () => {
     <WhyChooseSection />
     <GallerySection />
     <ProjectsSection/>
+    <Help />
+    <FAQ />
+    <Cta />
     </>
 
   )

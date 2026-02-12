@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import "./font/stylesheet.css";
 import AdornHeader from "./components/UI/AdornHeader";
+import Footer from "./components/UI/Footer";
 import SmoothScroll from "./components/SmoothScroll";
 
 export const metadata: Metadata = {
@@ -29,6 +30,7 @@ export default function RootLayout({
         <SmoothScroll />
         <AdornHeader />
         {children}
+        <Footer />
       </body>
     </html>
   );
