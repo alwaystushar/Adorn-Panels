@@ -1,0 +1,17 @@
+/* In your globals.css */
+.my-masonry-grid {
+    display: flex;
+    margin-left: -1.5vw;
+    width: auto;
+}
+
+.my-masonry-grid_column {
+    padding-left: 1.5vw;
+    background-clip: padding-box;
+}
+
+/* Add top padding to first and last columns */
+.my-masonry-grid .my-masonry-grid_column:first-child > a:first-child,
+.my-masonry-grid .my-masonry-grid_column:last-child > a:first-child {
+    margin-top: 8vw;
+}

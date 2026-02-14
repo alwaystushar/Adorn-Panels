@@ -7,13 +7,13 @@ import { usePathname, useRouter } from 'next/navigation';
 // Primary Navigation Items - Add more here and they'll automatically appear
 const NAV_PRIMARY = [
   { num: 'I', text: 'Home', href: '/' },
-  { num: 'II', text: 'Panels', href: '/panels' },
-  { num: 'III', text: 'Gallery', href: '/gallery' },
+  { num: 'II', text: 'Products', href: '/products' },
+  { num: 'III', text: 'Gallery', href: '/Gallery' },
 ] as const;
 
 // Secondary Navigation Items - Add more here and they'll automatically appear
 const NAV_SECONDARY = [
-  { text: 'About Us', href: '/about' },
+  { text: 'About Us', href: '/About' },
   { text: 'Services', href: '/services' },
   { text: 'Contact', href: '/contact' },
   { text: 'Blog', href: '/blog' },
